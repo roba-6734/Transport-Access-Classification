@@ -125,6 +125,7 @@ plt.xlabel('Epoch')
 plt.ylabel('Accuracy')
 plt.legend()
 
+
 plt.subplot(1, 2, 2)
 plt.plot(history.history['loss'], label='Training Loss')
 plt.plot(history.history['val_loss'], label='Validation Loss')
@@ -136,6 +137,7 @@ plt.legend()
 plt.tight_layout()
 plt.savefig('training_history.png')
 plt.close()
+
 
 print("Training completed! Model saved as 'mobilenet_classifier.keras'")
 print("Training history plot saved as 'training_history.png'")
