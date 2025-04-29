@@ -104,13 +104,17 @@ The dataset should be organized in the following structure:
 ```
 dataset/
 ├── train/
-│   ├── class_1/
-│   ├── class_2/
-│   └── ...
-├── validation/
-│   ├── class_1/
-│   ├── class_2/
-│   └── ...
+│   ├── car/
+│   ├── denied/
+│   └── scooter/
+├── val/
+│   ├── car/
+│   ├── denied/
+│   └── scooter/
+├── tes/
+│   ├── car/
+│   ├── denied/
+│   └── scooter/
 ```
 
 
