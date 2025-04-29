@@ -115,9 +115,3 @@ dataset/
 
 
 
-## 📣 License
-
-This project is for educational and research purposes. Please check the dataset's license if using it for any public work.
-
-
----
