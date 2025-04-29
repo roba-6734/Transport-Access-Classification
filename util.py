@@ -42,4 +42,4 @@ for class_name in class_names:
             dst = os.path.join(output_base, split, class_name, img)
             shutil.copy2(src, dst)
 
-print("✅ Dataset split completed into train, val, and test folders.")
+print(" Dataset split completed into train, val, and test folders.")
