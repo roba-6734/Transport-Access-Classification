@@ -86,7 +86,7 @@ model = load_model('transportation_classifier.h5')
 
 ## ✅ Requirements
 
-- Python ≥ 3.7
+- Python ≥ 3.10
 - TensorFlow ≥ 2.0
 - Keras (included with TensorFlow)
 - NumPy, Matplotlib
@@ -121,6 +121,5 @@ dataset/
 
 This project is for educational and research purposes. Please check the dataset's license if using it for any public work.
 
-```
 
 ---
