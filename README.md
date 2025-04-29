@@ -76,11 +76,11 @@ project/
 
 ## 💾 Saving and Using the Model
 
-- The model is saved using `model.save('transportation_classifier.h5')`
+- The model is saved using `model.save('mobilenet_transportation_access_classifier.keras')`
 - You can load it later with:
 ```python
 from tensorflow.keras.models import load_model
-model = load_model('transportation_classifier.h5')
+model = load_model('mobilenet_transportation_access_classifier.keras')
 ```
 
 ---
