@@ -1,12 +1,7 @@
-Sure! I'll take a look at your `model_training.ipynb` file and generate a `README.md` for it based on the content and workflow inside the notebook.
 
-Let me read the file first.
 
-Based on your Jupyter notebook, here's a draft `README.md` file for your project:
 
----
 
-```markdown
 # 🚀 Transportation Access Classifier
 
 Welcome to the **Transportation Access Classifier** project — an efficient image classification system built using **TensorFlow** and **MobileNetV2**. This project applies transfer learning on a custom dataset to classify transportation access scenarios.
@@ -118,7 +113,7 @@ dataset/
 │   └── ...
 ```
 
-📌 *Note: Include a link to download the dataset if available online.*
+
 
 ---
 
@@ -129,5 +124,3 @@ This project is for educational and research purposes. Please check the dataset'
 ```
 
 ---
-
-Let me know if you'd like to include things like a **live demo**, **confusion matrix**, or **results screenshot** in the README as well!
