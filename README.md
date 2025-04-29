@@ -53,15 +53,23 @@ Welcome to the **Transportation Access Classifier** project — an efficient ima
 
 ```
 project/
-├── train/
-│   ├── class_1/
-│   ├── class_2/
-│   └── ...
-├── validation/
-│   ├── class_1/
-│   ├── class_2/
-│   └── ...
-└── model_training.ipynb
+
+   dataset/
+   ├── train/
+   │   ├── car/
+   │   ├── denied/
+   │   └── scooter/
+   ├── val/
+   │   ├── car/
+   │   ├── denied/
+   │   └── scooter/
+   ├── test/
+   │   ├── car/
+   │   ├── denied/
+   │   └── scooter/
+   |
+   ├── model_training.ipynb
+   ├── test_model.ipynb
 ```
 
 ---
@@ -111,7 +119,7 @@ dataset/
 │   ├── car/
 │   ├── denied/
 │   └── scooter/
-├── tes/
+├── test/
 │   ├── car/
 │   ├── denied/
 │   └── scooter/
